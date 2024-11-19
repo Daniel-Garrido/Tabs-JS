@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css.css">
+  <title>TABS JS</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <section class="projects-section">
+    
+    <div class="container">
+      <h3 class="section-subtitle">Our Works</h3>
+      <h1 class="section-title">Latest Projects</h1>
+
+      <!-- Menu categorias -->
+      <div class="tabs">
+        <button class="tab active" data-tab="all">All Items</button>
+        <button class="tab" data-tab="mobile">Mobile App</button>
+        <button class="tab" data-tab="web">Web App</button>
+        <button class="tab" data-tab="custom">Custom Soft</button>
+        <button class="tab" data-tab="uiux">UI/UX</button>
+      </div>
+
+      <!-- Content for Each Tab -->
+      <div class="tab-content active" id="all">
+      
+        <div class="project-item item1">
+          <img src="images/port7.jpg" alt="Project 1">
+        </div>
+        
+        <div class="project-item item2">
+          <img src="images/port2.png" alt="Project 2">
+        </div>
+
+        <div class="project-item item3">
+          <img src="images/port7.jpg" alt="Project 3">
+        </div>
+        <div class="project-item item4">
+          <img src="images/port3.jpg" alt="Project 4">
+        </div>
+        <div class="project-item item5">
+          <img src="images/port6.jpg" alt="Project 4">
+        </div>
+      </div>
+
+      <div class="tab-content" id="mobile">
+        <div class="project-item"><img src="images/port7.jpg" alt="Mobile Project 1"></div>
+        <div class="project-item"><img src="images/port6.jpg" alt="Mobile Project 2"></div>
+      </div>
+
+      <div class="tab-content" id="web">
+        <!-- Add Image Items for 'Web App' Tab -->
+        <div class="project-item"><img src="images/port2.png" alt="Web Project 1"></div>
+      </div>
+
+      <div class="tab-content" id="custom">
+        <div class="project-item"><img src="images/port6.jpg" alt="Mobile Project 1"></div>
+        <div class="project-item"><img src="images/port7.jpg" alt="Mobile Project 2"></div>
+      </div>
+
+      <div class="tab-content" id="uiux">
+        <div class="project-item">
+          <img src="images/port7.jpg" alt="Project 1">
+        </div>
+        <div class="project-item">
+          <img src="images/port2.png" alt="Project 2">
+        </div>
+
+      </div>
+
+      <!-- Btn -->
+      <div class="view-all-button">
+        <button>View All Software</button>
+      </div>
+    </div>
+
+  </section>
+  <script src="js.js" >
+
+  </script>
+</body>
+</html>
